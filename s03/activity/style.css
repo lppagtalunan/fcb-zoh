@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Global reset */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Flexbox container for the entire page */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes up full viewport height */
+  scroll-behavior: smooth; /* Optional: smooth scroll on page load */
+}
+
+nav {
+  padding: 16px;
+  margin-bottom: 4px;
+  background-color: grey;
+}
+
+.nav-link {
+  margin-left: 1px;
+  margin-right: 1px;
+  color: white;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojclzzRsQKY9EiIzhdDfH1Bb4M2KRFXWKXQ&s');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; /* Ensure full height of the viewport */
+}
+
+/* Ensure the landing section grows properly */
+#landing {
+  text-align: center;
+  flex-grow: 1; /* Ensures this section grows to fill available space */
+}
+
+#profile {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 2px solid gold;
+}
+
+#name {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#title {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#intro {
+  width: 600px;
+  margin: auto;
+  font-family: 'Playfair Display', serif;
+}
+
+#tools {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#tools-title {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+#tools-img {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid gold;
+  border-radius: 50%;
+}
+
+#projects {
+	text-align: center;
+}
+
+/* Card styles for projects */
+.card {
+  background-color: lightgray;
+  height: 400px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid darkgrey;
+  text-align: center;
+}
+
+.card-img {
+  height: 300px;
+  width: 300px;
+}
+
+#contact {
+  text-align: center;
+  padding: 16px;
+  margin-top: 4px;
+  background-color: grey;
+}
+
+.foot-link {
+  margin-left: 1px;
+  margin-right: 1px;
+  color: white;
+  padding: 0px;
+}
+
